@@ -20,6 +20,7 @@ body {
   justify-content: center;
 }
 
+/* Layout */
 main {
   position: relative;
   width: 100rem;
@@ -42,6 +43,7 @@ main {
   transition: all 0.75s;
 }
 
+/* Elements */
 .name {
   position: relative;
   font-size: 4rem;
@@ -95,6 +97,7 @@ main {
   font-size: 3.5rem;
 }
 
+/* ABSOLUTE POSITIONED ELEMENTS */
 .btn {
   position: absolute;
   left: 50%;
@@ -125,7 +128,7 @@ main {
 }
 
 .btn--new {
-  top: 8rem;
+  top: 11rem;
 }
 .btn--roll {
   top: 40rem;
@@ -146,7 +149,7 @@ main {
 .dice {
   position: absolute;
   left: 50%;
-  top: 16.5rem;
+  top: 22rem;
   transform: translateX(-50%);
   height: 10rem;
 }
@@ -165,7 +168,7 @@ main {
 }
 
 .show-rule-window{
-  top: 2rem;
+  top: 5rem;
 }
 
 .close-rule-window {
@@ -206,7 +209,6 @@ main {
     height: 100%; 
     overflow: hidden;
   }
-}
 .name {
   font-size: 2rem;
   margin-bottom: 1rem;
@@ -239,7 +241,9 @@ main {
 .btn--hold {
   top: 60rem;
 }
-@media screen and (max-width:530px){
+}
+@media screen and (max-width: 530px){
+
   .player {
     padding: 4rem;
   }
