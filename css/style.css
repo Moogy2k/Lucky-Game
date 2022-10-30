@@ -228,12 +228,15 @@ main {
 .current-score {
   font-size: 3rem;
 }
+.dice{
+  top: 40rem;
+}
 
 .show-rule-window{
-  top: 29rem;
+  top: 25rem;
 }
 .btn--new {
-  top: 35rem;
+  top: 31rem;
 }
 .btn--roll {
   top: 54rem;
