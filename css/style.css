@@ -239,3 +239,29 @@ main {
 .btn--hold {
   top: 60rem;
 }
+@media screen and (max-width:530px){
+  .player {
+    padding: 5rem;
+  }
+  .dice {
+    top: 37rem;
+    transform: translateX(-50%);
+    height: 10rem;
+  }
+  .btn {
+    font-size: 1.5rem;
+    padding: 0.5rem 2.2rem;
+  }
+  .show-rule-window{
+    top: 20rem;
+  }
+  .btn--new {
+    top: 26rem;
+  }
+  .btn--roll {
+    top: 54rem;
+  }
+  .btn--hold {
+    top: 60rem;
+  } 
+}
