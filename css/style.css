@@ -241,27 +241,30 @@ main {
 }
 @media screen and (max-width:530px){
   .player {
-    padding: 5rem;
+    padding: 4rem;
+  }
+  .score {
+    font-size: 5rem;
   }
   .dice {
-    top: 37rem;
+    top: 26.5rem;
     transform: translateX(-50%);
     height: 10rem;
   }
   .btn {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     padding: 0.5rem 2.2rem;
   }
   .show-rule-window{
-    top: 20rem;
+    top: 14rem;
   }
   .btn--new {
-    top: 26rem;
+    top: 19rem;
   }
   .btn--roll {
-    top: 54rem;
+    top: 40rem;
   }
   .btn--hold {
-    top: 60rem;
+    top: 45rem;
   } 
 }
